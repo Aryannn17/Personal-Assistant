@@ -1,4 +1,4 @@
-# Personal-Assistant-application
+# Personal-Assistant
 C++ text to speech application which acts as a personal assistant. 
 
 Firstly one must download and install espeak speech synthesizer. The link is:http://espeak.sourceforge.net/download.html
@@ -28,5 +28,3 @@ To play audio using mcisendstring:
 mciSendString("open \"path of audio\" type mpegvideo alias mp3", NULL, 0, NULL);
 mciSendString("play mp3", NULL, 0, NULL);
 
-Other small details are mentioned in the video. Please do watch it.
-https://youtu.be/8yByf0EUeNk
